@@ -23,6 +23,15 @@ void printVector(std::vector<int> &v)
     std::cout << '\n';
 }
 
+bool isEmpty(int num, std::vector<int> &v)
+// Check if a spot is still available
+{
+    if (v[num] == 0)
+        return true;
+    else
+        return false;
+}
+
 
 int main() {
     printEmptyGrid();
@@ -43,6 +52,7 @@ int main() {
     printVector(v);
     std::cout << '\n';
 
+    std::cout << isEmpty(1, v);
     return 0;
 }
 
