@@ -3,4 +3,4 @@ project(TicTacToe)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TicTacToe main.cpp functions.hh)
+add_executable(TicTacToe main2.cpp functions.hh main.cc)

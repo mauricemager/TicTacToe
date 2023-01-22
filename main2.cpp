@@ -73,7 +73,7 @@ auto makeMove(){
 
 
 
-int main() {
+int main2() {
     IntPair p1;
     p1.set(1, 1); // set p1 values to (1, 1)
 
